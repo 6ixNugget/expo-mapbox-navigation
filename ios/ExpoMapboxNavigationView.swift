@@ -260,6 +260,11 @@ class ExpoMapboxNavigationViewController: UIViewController {
             navigationOptions: navigationOptions
         )
 
+        // Hide speed limit view when in walking mode
+        if currentRouteProfile == "mapbox/walking" {
+            navigationViewController.showsSpeedLimits = false
+        }
+
         let navigationMapView = navigationViewController.navigationMapView
         navigationMapView!.puckType = .puck2D(.navigationDefault)
 

@@ -44,14 +44,14 @@
       [
         "@rnmapbox/maps",
         {
-          "RNMapboxMapsDownloadToken": "<DOWNLOAD_TOKEN>",
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZHNhbGxlbnoiLCJhIjoiY20zcjAwbjB0MDBlazJxb2ltandyOGhsYSJ9.l7X9hvD_vdz3mlyYXu0PPQ",
           "RNMapboxMapsVersion": "11.7.0"
         }
       ],
       [
         "../app.plugin.js",
         {
-          "accessToken": "<TOKEN>",
+          "accessToken": "sk.eyJ1IjoiZHNhbGxlbnoiLCJhIjoiY20zcjAwbjB0MDBlazJxb2ltandyOGhsYSJ9.l7X9hvD_vdz3mlyYXu0PPQ",
           "mapboxMapsVersion": "11.7.0"
         }
       ]
